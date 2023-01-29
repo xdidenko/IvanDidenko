@@ -1,0 +1,79 @@
+html {
+  font-family: Roboto, sans-serif;
+}
+
+* {
+  color: #333333;
+}
+
+h1 {
+  color: #2f80ed;
+  margin-bottom: 0.25em;
+  
+}
+
+h2 {
+  color: #333333;
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+h3 {
+  color: #2f80ed;
+}
+
+a {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 2em;
+}
+
+.section {
+  margin-bottom: 3em;
+}
+
+.cv {
+  max-width: 900px;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.contacts {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.contact {
+  display: flex;
+}
+.contact__type {
+  min-width: 90px;
+}
+
+.description {
+  margin-top: 2em;
+}
+
+.experience {
+  display: flex;
+  margin-bottom: 2em;
+}
+.experience__date {
+  min-width: 185px;
+  margin-bottom: 1em;
+}
+.experience__name {
+  font-weight: bold;
+}
+
+@media (max-width: 575px) {
+  .experience {
+    display: block;
+  }
+}/*# sourceMappingURL=main.css.map */
