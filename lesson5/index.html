@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Approval Form</title>
+       </head>
+       <body>
+           <form action="#" method="post" target="_self">
+               <fieldset>
+                   <legend>Форма реєстрації користувача</legend>
+                <label for="fname">Повне Ім'я</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="Введіть повне Ім'я" required><br>
+                <label for="mail">Email</label><br>
+                    <input type="mail" id="mail" name="mail" placeholder="name@example.com" required><br>
+                <label for="password">Пароль</label><br>
+                    <input type="text" id="password" name="password" placeholder="Введіть пароль" required><br>
+                <label for="rpassword"> Пароль ще раз</label><br>
+                    <input type="text" id="rpassword" name="rpassword" placeholder="Повторіть пароль" required><br>
+                <label>Стать</label><br>
+                    <input type="radio" id="gender_man" name="gender" value="Чоловіча">
+                <label for="gender_man">Чоловіча</label>
+                    <input type="radio" id="gender_woman" name="gender" value="Жіноча">
+                <label for="gender_man">Жіноча</label><br>
+                <label>Вік</label>  
+                    <input type="number" id="age" name="age" value="Чоловіча" min="0" max="125" placeholder="28" required><br>
+                <label for="course">Курс</label>
+                    <select id="education" required>
+                        <option value="">-=Виберіть курс=-</option>
+                        <option value="frontend">Front-End</option>
+                        <option value="backend">Back-End</option>
+                        <option value="qa">QA</option>
+                      </select><br>
+                <label for="full_adress">Повна адреса</label><br>
+                      <textarea name="full_adress" placeholder="Країна, Регіон, Місто" id="full_adress" required ></textarea><br>
+                      <input type="checkbox"  unchecked required><label>Я погоджуюсь з умовами</label><br>
+            <div>
+                <button type="reset">Очистити</button> 
+                <button type="submit">Зареєструватися</button> 
+            </div>
+        </fieldset>
+      </form>
+    </body>
+</html>
