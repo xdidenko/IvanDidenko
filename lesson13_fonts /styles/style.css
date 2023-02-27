@@ -1,0 +1,114 @@
+html {
+    position: relative;
+    width: 1440px;
+    height: 2375px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 0px 90px;
+    gap: 70px;
+    position: absolute;
+    width: 1200px;
+    height: 2225px;
+    left: 120px;
+    top:150px;
+}
+.header_language {
+    font-family: "Tourney";
+    margin-right: 50px;
+    text-decoration: none;
+    font-size: 22px;    
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+}
+.navlist {
+    font-family: "Staatliches";
+    display: flex;
+    font-size: 22px;
+    gap: 10px;
+}
+.navlist-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.chapter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    width: 1200px;
+}
+
+
+.main_title {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px; 
+    height: 48px;
+}
+.title { 
+    margin-right: 10px;
+    height: 48px;   
+    text-transform: uppercase;
+    color: #000000;
+    font-family: 'Francois One';
+    font-size: 36px;
+    }
+.chapter-title {
+    height: 20px;
+    vertical-align: text-top;
+    font-family: 'Farro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+.chapter-text {
+    width: 1200px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px; 
+    color: #000000;
+}
+
+.chapter-text-bold{
+    margin: 0 auto;
+    width: 1200px;
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 48px; 
+    color: #000000;
+}
+
+.italic {
+    font-style: italic;
+}
+.normal {
+    font-weight: 400;
+}
+.highlight {
+    font-weight: 400;
+    background-color: rgb(197, 195, 195);
+}
