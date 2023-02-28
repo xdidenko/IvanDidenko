@@ -1,0 +1,59 @@
+
+.header {
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: #4A4F56;
+}
+.wrapper {
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.title {    
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+
+
+color: #FF8984;
+}
+
+.text {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #FF8984;
+}
+
+.checkbox_items {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.item1 {
+    
+}
+.item1::after {
+    content: " (for the next lessons about CSS) ";
+}
+
+.item2::after {
+    content: " (for more CSS manipulations) ";
+}
+
+.item3::after {
+    content: " (because they are awesome) ";
+}
+.item4::after {
+    content: "  (hm... they always dissapear) ";
+}
+
+.item6::after {
+    content: "  (for my friends) ";
+}
