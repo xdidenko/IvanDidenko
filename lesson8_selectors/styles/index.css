@@ -34,7 +34,7 @@ span {
     white-space: nowrap;
 }
 /* Не можу зрозуміти,чому доданий текст зникає при закреслюванні?І*/
- input[type='checkbox']:checked +span::after
+ input[type='checkbox']:checked +span::before
 {
     border-top: 2px solid rgb(255, 255, 255);
     position: absolute;
@@ -86,22 +86,21 @@ display:flex;
 flex-direction: column;
 background: #88839E;
 }
-
+span::after {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    color: #FFFFFF;
+    margin-left: 3px;
+    position: relative;
+    top: -2px;
+}
 .item1::after {
 content: " (for the next lessons about CSS) ";
-font-family: 'Roboto', sans-serif;
-font-size: 11px;
-color: #FFFFFF;
-margin-left: 3px;
-
 }
 
 .item2::after {
 content: " (for more CSS manipulations) ";
-font-family: 'Roboto', sans-serif;
-font-size: 11px;
-color: #FFFFFF;
-margin-left: 3px;
+
 }
 
 .item3::after {
